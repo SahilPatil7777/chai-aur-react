@@ -1,6 +1,7 @@
 import Chai from "./chai";
 
 function App() {
+  // create varible
   const username = "Chai aur react";
   return (
     <>
