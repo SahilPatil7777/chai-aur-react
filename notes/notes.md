@@ -11,3 +11,5 @@
 \*\*- hydration: when web layout is create and after that when js is inject is called as hydration
 
 \*\*- reconcilliation: it is an recursive algorithm which reconsider ki kisko update karana hain aur kisko nahi.it is algorithm behind what is popularly understood as the "virtual DOM".
+
+\*\*- props makes component reusable.eg. suppose you make card then place it in component then you will used again and again.
