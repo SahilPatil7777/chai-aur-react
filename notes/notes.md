@@ -1,8 +1,8 @@
 ## virtual DOM
 
-\*\* - in virtual dom is track or trace the dom in tree like structure and the value which change cutoff and then fixed in dom again.
+\*\* - virtual dom is track or trace the dom in tree like structure and the value which change cutoff and then fixed in dom again.
 
-\*\* - createRoot is used to create dom like structure behind the scene. it compare main dom and he created dom and update the think which is update in ui.
+\*\* - createRoot is used to create dom like structure behind the scene. it compare main dom with he created dom and update the think which is update in ui.
 
 \*\*- hook's are used to update ui on many places.
 
@@ -16,7 +16,7 @@
 
 ---
 
-create react app in which there is counter when we hit button one then it will increament by and when we hit button two then it will decrement by 1.
+create react app in which there is counter when we hit button one then it will increament by 1 and when we hit button two then it will decrement by 1.
 import { useState } from "react"; //hook come from
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -28,6 +28,7 @@ let [counter, setCounter] = useState(5); //hook
 // let counter = 5;
 
 const addValue = () => {
+
 <!-- // counter = counter + 1; -->
 <!-- setCounter(counter + 1);   -->
 <!-- here interviewer duplicate the code and asked what is happen or  what is value when you clicked on increament button-->
@@ -35,7 +36,7 @@ const addValue = () => {
 <!-- setCounter(counter + 1); -->
 <!-- setCounter(counter + 1); -->
 <!-- setCounter(counter + 1); -->
-<!-- if there is situation where you what to increse counter like this used preCounter.
+<!-- if there is situation where you want to increase counter by 4 so you can used preCounter.
     preCounter mean last updated state of setCounter. it will increament by 4 when you cliked on increament button. -->
 <!-- setCounter(prevCounter => preCounter + 1); -->
 
@@ -52,6 +53,7 @@ setCounter(counter - 1);
 };
 return (
 <>
+
 <h1>Chai aur React</h1>
 <h2>Counter value:{counter}</h2>
 <button onClick={addValue}>Add value {counter}</button>
