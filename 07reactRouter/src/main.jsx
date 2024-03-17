@@ -40,6 +40,7 @@ import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 // ]);
 
 // Other way
+// here we are doing nesting on layout
 // loader: when you want to fetch data from api then it help to directly call api from there.
 const router = createBrowserRouter(
   createRoutesFromElements(
