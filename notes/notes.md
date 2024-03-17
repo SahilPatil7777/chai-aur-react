@@ -65,3 +65,5 @@ return (
 }
 
 export default App;
+
+- React router Dom: it is not essential core part of react. it is an third party liabrary.
