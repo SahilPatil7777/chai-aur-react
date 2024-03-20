@@ -67,3 +67,16 @@ return (
 export default App;
 
 - React router Dom: it is not essential core part of react. it is an third party liabrary.
+
+- props drelling(props inside props): props dealing means if there is dashboard and in that there is left and right navigation bar and in right side navbar there is two portition and in first portition there is card and in that card you want to display the username and username is there in <app username = "chai" /> then data will to <dashboard username="chai"/> then it will go to right side navbar <rightnavbar username="chai"/> then it will go to <topcomp username = "chai"/> then finally it will go to card <Card username="chai"/>.
+  -Instead doing this if we declare global file and in that there is <title :"chai"/> then we direct associated card with this global file. so now there is no need to pass data from <app username = "chai" /> --><dashboard username="chai"/> --><topcomp username = "chai"/> --><Card username="chai"/>.
+- One more approach is to if <app /> is directly passes data to global file and then it will pass to card.
+- so making global file we have lot's of adv. there is no need of props inside props.
+
+- context API: then context api is available.it's purely associated with react and it is not exist outside react.but the problem is not only about react there is more thing which solve this problem.and that is called Redux.
+
+- Redux: it is used for state management. means data passess from one place to another place that is manage in organized way.
+
+- state Management Liabray:
+- Redux-toolkit(RTK)
+- zustand
