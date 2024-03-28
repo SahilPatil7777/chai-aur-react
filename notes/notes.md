@@ -76,6 +76,17 @@ export default App;
 - context API: then context api is available.it's purely associated with react and it is not exist outside react.but the problem is not only about react there is more thing which solve this problem.and that is called Redux.
 
 - Redux: it is used for state management. means data passess from one place to another place that is manage in organized way.
+- redux is an independent liabrary. To giving connenction to redux it gives react-redux.
+
+- Redux-toolkit: it is batteries included means no need to set of lot of things it give simple flow and it handle lot of things internally like it has more abstraction, it has easy way of making store.
+
+- concept in redux and redux-toolkit
+
+  - store: it is like global variable from where we take the things.
+  - reducer: when you want to make change in store reducer is used.
+  - methods:
+    - useSelector: it select values from store.
+    - useDispatch: when you want to send value from store useDispatch is used.
 
 - state Management Liabray:
 - Redux-toolkit(RTK)
