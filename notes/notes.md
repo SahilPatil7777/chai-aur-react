@@ -77,6 +77,9 @@ export default App;
 
 - Redux: it is used for state management. means data passess from one place to another place that is manage in organized way.
 - redux is an independent liabrary. To giving connenction to redux it gives react-redux.
+- redux is an core liabrary.
+
+- React-redux: it is implementation redux.For making wiring between them so redux and react can communicate.
 
 - Redux-toolkit: it is batteries included means no need to set of lot of things it give simple flow and it handle lot of things internally like it has more abstraction, it has easy way of making store.
 
